@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800;900&display=swap');
+
+h1 {
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.h1 {
+    font-weight: 900;
+}
+
+.description__text {
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+.text , .personal__skills>p {
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: justify;
+    width: 70%;
+}
+
+h2 {
+    font-family: Poppins, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-family: Poppins, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.text__about__myself {
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    text-align: justify;
+}
+
+.education__year {
+    font-family: Poppins, sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: var(--hr__color);
+}
+
+.education__description , .project__description{
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    margin: 0 0 10px 0;
+}
+
+.skills__all {
+    font-family: Poppins, sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: var(--hr__color);
+    text-align: center;
+}

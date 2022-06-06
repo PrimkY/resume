@@ -1,0 +1,108 @@
+body {
+    --aside__color: #C0D8DE;
+    --main__color: #E4E6E7;
+    --section__color: #222;
+    --hr__color: #828282;
+    --right__color: #EEE;
+    display: flex;
+}
+
+.left {
+    background-color: var(--aside__color);
+    width: 30%;
+    padding-top: 60px;
+}
+
+.avatar__box {
+    display: flex;
+    justify-content: center;
+}
+
+.avatar {
+    width: 202px;
+    height: 202px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.avatar__description {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text {
+    margin-top: 15px;
+}
+
+hr {
+    margin-top: 30px;
+    background-color: var(--hr__color);
+    width: 70%;
+}
+
+.contact__list {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.contact__item>a>img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.profile, .contact__me, .personal__skills>h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 35px;
+}
+
+.personal__skills>p {
+    margin-left: 15%;
+}
+
+.right {
+    background-color: var(--main__color);
+    width: 70%;
+    padding-top: 70px;
+}
+
+.right>section>div>h2 {
+    color: var(--right__color);
+}
+
+.right>section {
+    padding: 0 10%;
+}
+
+.black__box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--section__color);
+    height: 50px;
+    border-radius: 15px;
+    margin: 10px 0;
+}
+
+.text__about__myself {
+    margin: 15px 40px;
+}
+
+.project__list {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.project__list>li>a {
+    text-transform: uppercase;
+}
