@@ -46,9 +46,14 @@ hr {
 .contact__list {
     display: flex;
     justify-content: space-between;
-    width: 400px;
-    margin-top: 30px;
+    max-width: 80%;
+    margin-top: 15px;
     flex-wrap: wrap;
+}
+
+.contact__item {
+    width: 33%;
+    margin-top: 15px;
 }
 
 .contact__item>a>img {
@@ -105,4 +110,14 @@ hr {
 
 .project__list>li>a {
     text-transform: uppercase;
+}
+
+@media screen and (max-width: 640px) {
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+    .left{ width: 100%; padding-bottom: 20px}
+    .right {width: 100%}
+    .black__box{ text-align: center; height: 100px;}
 }
